@@ -23,7 +23,7 @@ const app=express()
 app.use(express.json());
 const { v4:uuidv4 } =require ('uuid');
  
-mongoose.connect("mongodb+srv://vijayavikashinipi2023cse:thvikashini0702@cluster0.ckg75.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/expenses").then(()=>{
+mongoose.connect("mongodb+srv://vijayavikashinipi2023cse:thvikashini0702@cluster0.ckg75.mongodb.net/expenses").then(()=>{
     console.log("Connected to MongoDB");
 });
 
